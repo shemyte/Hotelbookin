@@ -36,7 +36,7 @@
                         <a href="News" class="nav-link">News</a>
                     </li>
                     <li class="nav-item">
-                        <a href="Contact" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -45,10 +45,10 @@
         <div class="hero">
             <div class="container">
                 <div class="main-heading">
-                    <h1 class="title">Discovery</h1>
+                    <h1 class="title">Discover</h1>
                     <h2 class="subtitle">Luxury hotels</h2>
                 </div>
-                <a href="Explore Now" class="btn btn-gradient">Explore Now
+                <a href="#explore" class="btn btn-gradient">Explore Now
                     <span class="dots"><i class="fa fa-ellipsis-h"></i></span>
                 </a>
             </div>
@@ -98,7 +98,7 @@
             </div>
         </section>
         <section class="class hotels">
-            <div class="container">
+            <div id="explore" class="container">
                 <h5 class="section-head">
                     <span class="heading">Explore</span>
                     <span class="sub-heading">Our beautiful hotels</span>
@@ -375,7 +375,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="container">
                 <h5 class="section head">
                     <span class="heading">Contact</span>
@@ -385,23 +385,23 @@
                     <div class="traveler-wrap">
                         <img src="images/traveler.jpg" alt="">
                     </div>
-                    <form action="" class="form contact-form">
+                    <form action="" class="form contact-form" id="form1">
                         <div class="input-group-wrap">
                             <div class="input-group">
-                                <input type="text" class="input" placeholder="Name" required>
+                                <input type="text" class="input" id="name" placeholder="Name" required>
                                 <span class="bar"></span>
                             </div>
                             <div class="input-group">
-                                <input type="email" class="input" placeholder="E-mail" required>
+                                <input type="email" class="input" id="email" placeholder="E-mail" required>
                                 <span class="bar"></span>
                             </div>
                         </div>
                             <div class="input-group">
-                                <input type="text" class="input" placeholder="Subject" required>
+                                <input type="text" class="input" id="subject" placeholder="Subject" required>
                                 <span class="bar"></span>
                             </div>
                             <div class="input-group">
-                                <textarea class="input" cols="30" rows="8" placeholder="Subject" required></textarea>
+                                <textarea class="input" id="message" cols="30" rows="8" placeholder="Message" required></textarea>
                                 <span class="bar"></span>
                             </div>
                             <button type="submit" class="btn form-btn btn-purple">Send Message
